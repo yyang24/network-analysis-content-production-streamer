@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Jasmine"
+  },
+  "text": {
+    "more": "",
+    "intro": "This network illustrates the network of games by streamers\u0027 overlaps in production. \n\nA node denotes a game, an edge indicates the presence of common streamers broadcasting both games. The size of a node is the number of streamers broadcasting the game. The weight of an edge corresponds to the number of common streamers broadcasting two games. \nThe displayed network color-coded nodes for visiability and identification of community clusters. \n\n",
+    "title": "Twitch-Content-Production"
+  },
+  "legend": {
+    "edgeLabel": "Common Streamers",
+    "colorLabel": "Community Cluster",
+    "nodeLabel": "Game"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
